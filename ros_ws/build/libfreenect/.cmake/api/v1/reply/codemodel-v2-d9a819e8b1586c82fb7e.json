@@ -1,0 +1,209 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f278ea15f7e068054af0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-f468ad1672a2e697b605.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "fakenect",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-fakenect-Release-2f2b7538573fcb78b430.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fakenect",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "wrappers/c_sync",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wrappers.c_sync-Release-3196ca76339e83681c15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "wrappers/c_sync",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "wrappers/cpp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wrappers.cpp-Release-941b44d60ef052c3256a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "wrappers/cpp"
+				},
+				{
+					"build" : "wrappers/python",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-wrappers.python-Release-b9f81d87c483682b8dc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "wrappers/python",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "libfreenect",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "cython3_freenect::@cd443b3f029907ae3a2c",
+					"jsonFile" : "target-cython3_freenect-Release-1c5cedd34baf3fac207f.json",
+					"name" : "cython3_freenect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fakenect::@ad960db0dfc9b36e43c7",
+					"jsonFile" : "target-fakenect-Release-80ecdaf665f0466f7d9d.json",
+					"name" : "fakenect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fakenect-record::@ad960db0dfc9b36e43c7",
+					"jsonFile" : "target-fakenect-record-Release-ac31d0f28078270cf241.json",
+					"name" : "fakenect-record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freenect::@145eef247bfb46b6828c",
+					"jsonFile" : "target-freenect-Release-18178fe9c950b928b593.json",
+					"name" : "freenect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "freenect_sync::@576f7b6d96029cc094a2",
+					"jsonFile" : "target-freenect_sync-Release-d57df9211ebf31c05b8e.json",
+					"name" : "freenect_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "freenect_sync_static::@576f7b6d96029cc094a2",
+					"jsonFile" : "target-freenect_sync_static-Release-ebc8865a6c9cac574ee5.json",
+					"name" : "freenect_sync_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freenectstatic::@145eef247bfb46b6828c",
+					"jsonFile" : "target-freenectstatic-Release-a1f25633e75b1dfe3ae3.json",
+					"name" : "freenectstatic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c524e274f5e6cfa47878.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_ws/build/libfreenect",
+		"source" : "/root/ros_ws/src/libfreenect"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

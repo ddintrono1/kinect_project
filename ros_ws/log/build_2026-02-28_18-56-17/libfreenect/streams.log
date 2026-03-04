@@ -1,0 +1,142 @@
+[0.008s] Invoking command in '/root/ros_ws/build/libfreenect': /usr/bin/cmake /root/ros_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/libfreenect
+[0.060s] -- The C compiler identification is GNU 13.3.0
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.128s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.298s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.311s] -- Operating system is Linux
+[0.311s] -- Got System Processor x86_64
+[0.312s] -- Linux x86_64 Detected
+[0.312s] -- libfreenect will be installed to /root/ros_ws/install/libfreenect
+[0.312s] -- Headers will be installed to /root/ros_ws/install/libfreenect/include/libfreenect
+[0.312s] -- Libraries will be installed to /root/ros_ws/install/libfreenect/lib
+[0.315s] -- Found libusb-1.0:
+[0.316s] --  - Includes: /usr/include/libusb-1.0
+[0.316s] --  - Libraries: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[0.319s] -- Looking for include file pthread.h
+[0.387s] -- Looking for include file pthread.h - found
+[0.387s] -- Looking for pthread_create in pthreads
+[0.451s] -- Looking for pthread_create in pthreads - not found
+[0.451s] -- Looking for pthread_create in pthread
+[0.527s] -- Looking for pthread_create in pthread - found
+[0.528s] -- Found Threads: TRUE  
+[0.536s] -- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_INCLUDE_DIR OpenGL) 
+[0.546s] -- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) 
+[0.554s] -- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_INCLUDE_DIR OpenGL) 
+[0.564s] -- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) 
+[0.565s] -- Configuring done (0.5s)
+[0.580s] -- Generating done (0.0s)
+[0.584s] -- Build files have been written to: /root/ros_ws/build/libfreenect
+[0.589s] Invoked command in '/root/ros_ws/build/libfreenect' returned '0': /usr/bin/cmake /root/ros_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/libfreenect
+[0.589s] Invoking command in '/root/ros_ws/build/libfreenect': /usr/bin/cmake --build /root/ros_ws/build/libfreenect -- -j8 -l8
+[0.638s] [  8%] [32mBuilding C object src/CMakeFiles/freenect.dir/tilt.c.o[0m
+[0.638s] [ 10%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/tilt.c.o[0m
+[0.639s] [  8%] [32mBuilding C object src/CMakeFiles/freenect.dir/core.c.o[0m
+[0.639s] [  8%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/cameras.c.o[0m
+[0.640s] [ 16%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/core.c.o[0m
+[0.640s] [ 18%] [32mBuilding C object src/CMakeFiles/freenect.dir/cameras.c.o[0m
+[0.641s] [ 18%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/fakenect.c.o[0m
+[0.642s] [ 21%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/parson.c.o[0m
+[0.695s] [01m[K/root/ros_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+[0.695s]    74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+[0.695s]       |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[0.703s] [01m[K/root/ros_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+[0.703s]    74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+[0.703s]       |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[0.788s] [ 24%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/flags.c.o[0m
+[0.792s] [ 27%] [32mBuilding C object src/CMakeFiles/freenect.dir/flags.c.o[0m
+[0.793s] [ 29%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o[0m
+[0.808s] [ 32%] [32mBuilding C object src/CMakeFiles/freenect.dir/usb_libusb10.c.o[0m
+[0.958s] [ 35%] [32mBuilding C object src/CMakeFiles/freenect.dir/registration.c.o[0m
+[0.961s] [ 37%] [32mBuilding C object src/CMakeFiles/freenect.dir/audio.c.o[0m
+[0.980s] [ 40%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/__/src/registration.c.o[0m
+[1.144s] [ 43%] [32mBuilding C object src/CMakeFiles/freenect.dir/loader.c.o[0m
+[1.188s] [ 45%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/registration.c.o[0m
+[1.195s] [01m[K/root/ros_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.196s]    82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+[1.196s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.196s] [ 48%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/audio.c.o[0m
+[1.206s] [ 51%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/loader.c.o[0m
+[1.265s] [01m[K/root/ros_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.265s]    82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+[1.265s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.353s] [ 54%] [32m[1mLinking C shared library ../lib/libfreenect.so[0m
+[1.398s] [ 54%] Built target freenect
+[1.406s] [ 56%] [32m[1mLinking C static library ../lib/libfreenect.a[0m
+[1.424s] [ 64%] [32mBuilding C object examples/CMakeFiles/freenect-wavrecord.dir/wavrecord.c.o[0m
+[1.424s] [ 64%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o[0m
+[1.425s] [ 64%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/record.c.o[0m
+[1.427s] [ 67%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync.dir/libfreenect_sync.c.o[0m
+[1.435s] [ 70%] [32mBuilding C object examples/CMakeFiles/freenect-camtest.dir/camtest.c.o[0m
+[1.435s] [ 72%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/parson.c.o[0m
+[1.464s] [ 72%] Built target freenectstatic
+[1.499s] [ 75%] [32m[1mLinking C shared library ../lib/fakenect/libfakenect.so[0m
+[1.507s] [ 78%] [32m[1mLinking C executable ../bin/freenect-wavrecord[0m
+[1.531s] [ 81%] [32m[1mLinking C executable ../bin/freenect-camtest[0m
+[1.581s] [ 81%] Built target freenect-wavrecord
+[1.593s] [ 81%] Built target freenect-camtest
+[1.602s] [ 81%] Built target fakenect
+[1.615s] [ 83%] [32m[1mLinking C static library ../../lib/libfreenect_sync.a[0m
+[1.624s] [ 86%] [32m[1mLinking C shared library ../../lib/libfreenect_sync.so[0m
+[1.646s] [01m[K/root/ros_ws/src/libfreenect/fakenect/record.c:[m[K In function ‘[01m[Kmain[m[K’:
+[1.646s] [01m[K/root/ros_ws/src/libfreenect/fakenect/record.c:410:25:[m[K [01;35m[Kwarning: [m[Kargument 1 null where non-null expected [[01;35m[K-Wnonnull[m[K]
+[1.646s]   410 |                         [01;35m[Kfclose(index_fp)[m[K;
+[1.646s]       |                         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.646s] In file included from [01m[K/root/ros_ws/src/libfreenect/fakenect/record.c:32[m[K:
+[1.646s] [01m[K/usr/include/stdio.h:184:12:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kfclose[m[K’ declared ‘[01m[Knonnull[m[K’
+[1.646s]   184 | extern int [01;36m[Kfclose[m[K (FILE *__stream) __nonnull ((1));
+[1.646s]       |            [01;36m[K^~~~~~[m[K
+[1.653s] [ 86%] Built target freenect_sync_static
+[1.676s] [ 86%] Built target freenect_sync
+[1.691s] [ 91%] [32mBuilding C object examples/CMakeFiles/freenect-regtest.dir/regtest.c.o[0m
+[1.691s] [ 91%] [32mBuilding C object examples/CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o[0m
+[1.745s] [ 97%] [32m[1mLinking C executable ../bin/freenect-regtest[0m
+[1.745s] [ 97%] [32m[1mLinking C executable ../bin/freenect-tiltdemo[0m
+[1.777s] [ 97%] Built target freenect-regtest
+[1.777s] [ 97%] Built target freenect-tiltdemo
+[2.105s] [100%] [32m[1mLinking C executable ../bin/fakenect-record[0m
+[2.149s] [100%] Built target fakenect-record
+[2.158s] Invoked command in '/root/ros_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /root/ros_ws/build/libfreenect -- -j8 -l8
+[2.165s] Invoking command in '/root/ros_ws/build/libfreenect': /usr/bin/cmake --install /root/ros_ws/build/libfreenect
+[2.170s] -- Install configuration: ""
+[2.170s] -- Installing: /root/ros_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake
+[2.171s] -- Installing: /root/ros_ws/install/libfreenect/share/fwfetcher.py
+[2.171s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.so.0.7.5
+[2.171s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.so.0
+[2.171s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.so
+[2.171s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.a
+[2.172s] -- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect.h
+[2.172s] -- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h
+[2.172s] -- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h
+[2.172s] -- Installing: /root/ros_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc
+[2.172s] -- Installing: /root/ros_ws/install/libfreenect/bin/freenect-camtest
+[2.173s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-camtest" to ""
+[2.173s] -- Installing: /root/ros_ws/install/libfreenect/bin/freenect-wavrecord
+[2.173s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-wavrecord" to ""
+[2.173s] -- Installing: /root/ros_ws/install/libfreenect/bin/freenect-regtest
+[2.173s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-regtest" to ""
+[2.174s] -- Installing: /root/ros_ws/install/libfreenect/bin/freenect-tiltdemo
+[2.174s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-tiltdemo" to ""
+[2.174s] -- Installing: /root/ros_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5
+[2.174s] -- Installing: /root/ros_ws/install/libfreenect/lib/fakenect/libfakenect.so.0
+[2.174s] -- Installing: /root/ros_ws/install/libfreenect/lib/fakenect/libfakenect.so
+[2.175s] -- Installing: /root/ros_ws/install/libfreenect/bin/fakenect-record
+[2.175s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/fakenect-record" to ""
+[2.175s] -- Installing: /root/ros_ws/install/libfreenect/bin/fakenect
+[2.175s] -- Installing: /root/ros_ws/install/libfreenect/share/man/man1/fakenect.1
+[2.175s] -- Installing: /root/ros_ws/install/libfreenect/share/man/man1/fakenect-record.1
+[2.175s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5
+[2.176s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.so.0
+[2.176s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5" to ""
+[2.176s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.so
+[2.176s] -- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.a
+[2.176s] -- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h
+[2.176s] -- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect.hpp
+[2.178s] Invoked command in '/root/ros_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /root/ros_ws/build/libfreenect

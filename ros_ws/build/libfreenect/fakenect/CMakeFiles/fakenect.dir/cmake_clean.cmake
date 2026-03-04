@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "../lib/fakenect/.0"
+  "../lib/fakenect/libfakenect.pdb"
+  "../lib/fakenect/libfakenect.so"
+  "../lib/fakenect/libfakenect.so.0"
+  "../lib/fakenect/libfakenect.so.0.7.5"
+  "CMakeFiles/fakenect.dir/__/src/registration.c.o"
+  "CMakeFiles/fakenect.dir/__/src/registration.c.o.d"
+  "CMakeFiles/fakenect.dir/fakenect.c.o"
+  "CMakeFiles/fakenect.dir/fakenect.c.o.d"
+  "CMakeFiles/fakenect.dir/parson.c.o"
+  "CMakeFiles/fakenect.dir/parson.c.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/fakenect.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

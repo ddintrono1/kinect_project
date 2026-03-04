@@ -1,0 +1,27 @@
+[01m[K/root/ros_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+   74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+      |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/root/ros_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+   74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+      |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/root/ros_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros_ws/src/libfreenect/fakenect/record.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/root/ros_ws/src/libfreenect/fakenect/record.c:410:25:[m[K [01;35m[Kwarning: [m[Kargument 1 null where non-null expected [[01;35m[K-Wnonnull[m[K]
+  410 |                         [01;35m[Kfclose(index_fp)[m[K;
+      |                         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/root/ros_ws/src/libfreenect/fakenect/record.c:32[m[K:
+[01m[K/usr/include/stdio.h:184:12:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kfclose[m[K’ declared ‘[01m[Knonnull[m[K’
+  184 | extern int [01;36m[Kfclose[m[K (FILE *__stream) __nonnull ((1));
+      |            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+                 from [01m[K/usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+                 from [01m[K/usr/lib/python3/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+                 from [01m[K/root/ros_ws/build/libfreenect/wrappers/python/freenect3.c:1193[m[K:
+[01m[K/usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K-Wcpp[m[K]
+   17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+      |  [01;35m[K^~~~~~~[m[K

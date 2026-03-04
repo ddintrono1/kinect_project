@@ -1,0 +1,1 @@
+docker build --rm -t ros:doomdam -f doomdam.Dockerfile .

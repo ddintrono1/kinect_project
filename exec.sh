@@ -1,0 +1,1 @@
+docker exec -it doomdam_container bash

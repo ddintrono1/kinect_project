@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"Python_BUILD_EXTENSION"
+		],
+		"files" : 
+		[
+			"wrappers/python/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/root/ros_ws/install/libfreenect/lib/python3.12/site-packages",
+			"paths" : 
+			[
+				"wrappers/python/python3/freenect.so"
+			],
+			"targetId" : "cython3_freenect::@cd443b3f029907ae3a2c",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "cython3_freenect::@cd443b3f029907ae3a2c",
+				"index" : 0
+			},
+			"destination" : "/root/ros_ws/install/libfreenect/lib/python3.12/site-packages",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "wrappers/python",
+		"source" : "wrappers/python"
+	}
+}

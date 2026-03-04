@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wall -O2  -Wall -O2  -shared  -o python3/freenect.so CMakeFiles/cython3_freenect.dir/freenect3.c.o  -Wl,-rpath,/root/ros_ws/build/libfreenect/lib: ../../lib/libfreenect_sync.so.0.7.5 /usr/lib/x86_64-linux-gnu/libpython3.12.so ../../lib/libfreenect.so.0.7.5 /usr/lib/x86_64-linux-gnu/libusb-1.0.so -lpthread 

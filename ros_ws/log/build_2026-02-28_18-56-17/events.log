@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000339] (libfreenect) JobQueued: {'identifier': 'libfreenect', 'dependencies': OrderedDict()}
+[0.000526] (libfreenect) JobStarted: {'identifier': 'libfreenect'}
+[0.006873] (libfreenect) JobProgress: {'identifier': 'libfreenect', 'progress': 'cmake'}
+[0.007258] (libfreenect) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_ws/src/libfreenect', '-DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/libfreenect'], 'cwd': '/root/ros_ws/build/libfreenect', 'env': OrderedDict({'HOSTNAME': 'doom-pc', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/libfreenect/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/root/ros_ws/install/libfreenect/lib/pkgconfig', 'TERM': 'xterm', 'PATH': '/root/ros_ws/install/libfreenect/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/home/doom/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros_ws/build/libfreenect', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/libfreenect'}), 'shell': False}
+[0.060365] (libfreenect) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099810] (-) TimerEvent: {}
+[0.112414] (libfreenect) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.127828] (libfreenect) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199765] (libfreenect) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199910] (-) TimerEvent: {}
+[0.209171] (libfreenect) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.209777] (libfreenect) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.210155] (libfreenect) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.222125] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298698] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.300014] (-) TimerEvent: {}
+[0.307575] (libfreenect) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.308122] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.309277] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.311072] (libfreenect) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.311734] (libfreenect) StdoutLine: {'line': b'-- Got System Processor x86_64\n'}
+[0.312016] (libfreenect) StdoutLine: {'line': b'-- Linux x86_64 Detected\n'}
+[0.312151] (libfreenect) StdoutLine: {'line': b'-- libfreenect will be installed to /root/ros_ws/install/libfreenect\n'}
+[0.312322] (libfreenect) StdoutLine: {'line': b'-- Headers will be installed to /root/ros_ws/install/libfreenect/include/libfreenect\n'}
+[0.312497] (libfreenect) StdoutLine: {'line': b'-- Libraries will be installed to /root/ros_ws/install/libfreenect/lib\n'}
+[0.315275] (libfreenect) StdoutLine: {'line': b'-- Found libusb-1.0:\n'}
+[0.315954] (libfreenect) StdoutLine: {'line': b'--  - Includes: /usr/include/libusb-1.0\n'}
+[0.316152] (libfreenect) StdoutLine: {'line': b'--  - Libraries: /usr/lib/x86_64-linux-gnu/libusb-1.0.so\n'}
+[0.319801] (libfreenect) StdoutLine: {'line': b'-- Looking for include file pthread.h\n'}
+[0.387263] (libfreenect) StdoutLine: {'line': b'-- Looking for include file pthread.h - found\n'}
+[0.387487] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.400152] (-) TimerEvent: {}
+[0.450918] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.451123] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.500287] (-) TimerEvent: {}
+[0.527504] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.528688] (libfreenect) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.535904] (libfreenect) StdoutLine: {'line': b'-- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_INCLUDE_DIR OpenGL) \n'}
+[0.546262] (libfreenect) StdoutLine: {'line': b'-- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) \n'}
+[0.554685] (libfreenect) StdoutLine: {'line': b'-- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_INCLUDE_DIR OpenGL) \n'}
+[0.564548] (libfreenect) StdoutLine: {'line': b'-- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) \n'}
+[0.565353] (libfreenect) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.580442] (libfreenect) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.584791] (libfreenect) StdoutLine: {'line': b'-- Build files have been written to: /root/ros_ws/build/libfreenect\n'}
+[0.588952] (libfreenect) CommandEnded: {'returncode': 0}
+[0.589348] (libfreenect) JobProgress: {'identifier': 'libfreenect', 'progress': 'build'}
+[0.589892] (libfreenect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros_ws/build/libfreenect', '--', '-j8', '-l8'], 'cwd': '/root/ros_ws/build/libfreenect', 'env': OrderedDict({'HOSTNAME': 'doom-pc', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/libfreenect/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/root/ros_ws/install/libfreenect/lib/pkgconfig', 'TERM': 'xterm', 'PATH': '/root/ros_ws/install/libfreenect/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/home/doom/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros_ws/build/libfreenect', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/libfreenect'}), 'shell': False}
+[0.600411] (-) TimerEvent: {}
+[0.638229] (libfreenect) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/tilt.c.o\x1b[0m\n'}
+[0.638514] (libfreenect) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/tilt.c.o\x1b[0m\n'}
+[0.639468] (libfreenect) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/core.c.o\x1b[0m\n'}
+[0.639772] (libfreenect) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/cameras.c.o\x1b[0m\n'}
+[0.640417] (libfreenect) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/core.c.o\x1b[0m\n'}
+[0.640654] (libfreenect) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/cameras.c.o\x1b[0m\n'}
+[0.641218] (libfreenect) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect.dir/fakenect.c.o\x1b[0m\n'}
+[0.641916] (libfreenect) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect.dir/parson.c.o\x1b[0m\n'}
+[0.695360] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros_ws/src/libfreenect/src/cameras.c:74:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinvalid_mode\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-const-variable=\x1b[m\x1b[K]\n'}
+[0.695622] (libfreenect) StderrLine: {'line': b'   74 | static const freenect_frame_mode \x1b[01;35m\x1b[Kinvalid_mode\x1b[m\x1b[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};\n'}
+[0.695737] (libfreenect) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.700528] (-) TimerEvent: {}
+[0.702974] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros_ws/src/libfreenect/src/cameras.c:74:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinvalid_mode\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-const-variable=\x1b[m\x1b[K]\n'}
+[0.703207] (libfreenect) StderrLine: {'line': b'   74 | static const freenect_frame_mode \x1b[01;35m\x1b[Kinvalid_mode\x1b[m\x1b[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};\n'}
+[0.703350] (libfreenect) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.788184] (libfreenect) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/flags.c.o\x1b[0m\n'}
+[0.792334] (libfreenect) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/flags.c.o\x1b[0m\n'}
+[0.793020] (libfreenect) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o\x1b[0m\n'}
+[0.800744] (-) TimerEvent: {}
+[0.808077] (libfreenect) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/usb_libusb10.c.o\x1b[0m\n'}
+[0.900908] (-) TimerEvent: {}
+[0.958197] (libfreenect) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/registration.c.o\x1b[0m\n'}
+[0.960690] (libfreenect) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/audio.c.o\x1b[0m\n'}
+[0.980407] (libfreenect) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect.dir/__/src/registration.c.o\x1b[0m\n'}
+[1.001033] (-) TimerEvent: {}
+[1.101412] (-) TimerEvent: {}
+[1.144603] (libfreenect) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/loader.c.o\x1b[0m\n'}
+[1.188806] (libfreenect) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/registration.c.o\x1b[0m\n'}
+[1.195602] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros_ws/src/libfreenect/src/loader.c:82:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcheck_version_string\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[1.196239] (libfreenect) StderrLine: {'line': b'   82 | static int \x1b[01;35m\x1b[Kcheck_version_string\x1b[m\x1b[K(fnusb_dev* dev) {\n'}
+[1.196475] (libfreenect) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.196696] (libfreenect) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/audio.c.o\x1b[0m\n'}
+[1.201532] (-) TimerEvent: {}
+[1.206751] (libfreenect) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/loader.c.o\x1b[0m\n'}
+[1.265269] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros_ws/src/libfreenect/src/loader.c:82:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcheck_version_string\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[1.265592] (libfreenect) StderrLine: {'line': b'   82 | static int \x1b[01;35m\x1b[Kcheck_version_string\x1b[m\x1b[K(fnusb_dev* dev) {\n'}
+[1.265792] (libfreenect) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.301655] (-) TimerEvent: {}
+[1.353064] (libfreenect) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library ../lib/libfreenect.so\x1b[0m\n'}
+[1.398624] (libfreenect) StdoutLine: {'line': b'[ 54%] Built target freenect\n'}
+[1.401790] (-) TimerEvent: {}
+[1.406494] (libfreenect) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C static library ../lib/libfreenect.a\x1b[0m\n'}
+[1.424413] (libfreenect) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-wavrecord.dir/wavrecord.c.o\x1b[0m\n'}
+[1.424816] (libfreenect) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o\x1b[0m\n'}
+[1.424982] (libfreenect) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/record.c.o\x1b[0m\n'}
+[1.427130] (libfreenect) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync.dir/libfreenect_sync.c.o\x1b[0m\n'}
+[1.435140] (libfreenect) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-camtest.dir/camtest.c.o\x1b[0m\n'}
+[1.435559] (libfreenect) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/parson.c.o\x1b[0m\n'}
+[1.463943] (libfreenect) StdoutLine: {'line': b'[ 72%] Built target freenectstatic\n'}
+[1.499349] (libfreenect) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking C shared library ../lib/fakenect/libfakenect.so\x1b[0m\n'}
+[1.501902] (-) TimerEvent: {}
+[1.507743] (libfreenect) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-wavrecord\x1b[0m\n'}
+[1.530851] (libfreenect) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-camtest\x1b[0m\n'}
+[1.581625] (libfreenect) StdoutLine: {'line': b'[ 81%] Built target freenect-wavrecord\n'}
+[1.593400] (libfreenect) StdoutLine: {'line': b'[ 81%] Built target freenect-camtest\n'}
+[1.602017] (-) TimerEvent: {}
+[1.602793] (libfreenect) StdoutLine: {'line': b'[ 81%] Built target fakenect\n'}
+[1.614645] (libfreenect) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C static library ../../lib/libfreenect_sync.a\x1b[0m\n'}
+[1.624781] (libfreenect) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libfreenect_sync.so\x1b[0m\n'}
+[1.646019] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros_ws/src/libfreenect/fakenect/record.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kmain\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.646329] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros_ws/src/libfreenect/fakenect/record.c:410:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kargument 1 null where non-null expected [\x1b[01;35m\x1b[K-Wnonnull\x1b[m\x1b[K]\n'}
+[1.646404] (libfreenect) StderrLine: {'line': b'  410 |                         \x1b[01;35m\x1b[Kfclose(index_fp)\x1b[m\x1b[K;\n'}
+[1.646464] (libfreenect) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.646523] (libfreenect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros_ws/src/libfreenect/fakenect/record.c:32\x1b[m\x1b[K:\n'}
+[1.646590] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdio.h:184:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin a call to function \xe2\x80\x98\x1b[01m\x1b[Kfclose\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Knonnull\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.646652] (libfreenect) StderrLine: {'line': b'  184 | extern int \x1b[01;36m\x1b[Kfclose\x1b[m\x1b[K (FILE *__stream) __nonnull ((1));\n'}
+[1.646713] (libfreenect) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.653687] (libfreenect) StdoutLine: {'line': b'[ 86%] Built target freenect_sync_static\n'}
+[1.676217] (libfreenect) StdoutLine: {'line': b'[ 86%] Built target freenect_sync\n'}
+[1.690921] (libfreenect) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-regtest.dir/regtest.c.o\x1b[0m\n'}
+[1.691101] (libfreenect) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o\x1b[0m\n'}
+[1.702138] (-) TimerEvent: {}
+[1.744960] (libfreenect) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-regtest\x1b[0m\n'}
+[1.745390] (libfreenect) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-tiltdemo\x1b[0m\n'}
+[1.777310] (libfreenect) StdoutLine: {'line': b'[ 97%] Built target freenect-regtest\n'}
+[1.777534] (libfreenect) StdoutLine: {'line': b'[ 97%] Built target freenect-tiltdemo\n'}
+[1.802262] (-) TimerEvent: {}
+[1.902550] (-) TimerEvent: {}
+[2.002893] (-) TimerEvent: {}
+[2.103173] (-) TimerEvent: {}
+[2.105128] (libfreenect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C executable ../bin/fakenect-record\x1b[0m\n'}
+[2.149921] (libfreenect) StdoutLine: {'line': b'[100%] Built target fakenect-record\n'}
+[2.158213] (libfreenect) CommandEnded: {'returncode': 0}
+[2.158793] (libfreenect) JobProgress: {'identifier': 'libfreenect', 'progress': 'install'}
+[2.165386] (libfreenect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros_ws/build/libfreenect'], 'cwd': '/root/ros_ws/build/libfreenect', 'env': OrderedDict({'HOSTNAME': 'doom-pc', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/libfreenect/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/root/ros_ws/install/libfreenect/lib/pkgconfig', 'TERM': 'xterm', 'PATH': '/root/ros_ws/install/libfreenect/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/home/doom/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros_ws/build/libfreenect', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/libfreenect'}), 'shell': False}
+[2.170833] (libfreenect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.170991] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake\n'}
+[2.171188] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/share/fwfetcher.py\n'}
+[2.171382] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.so.0.7.5\n'}
+[2.171540] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.so.0\n'}
+[2.171619] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.so\n'}
+[2.171707] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect.a\n'}
+[2.172013] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect.h\n'}
+[2.172132] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h\n'}
+[2.172257] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h\n'}
+[2.172372] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc\n'}
+[2.172769] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/bin/freenect-camtest\n'}
+[2.173197] (libfreenect) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-camtest" to ""\n'}
+[2.173433] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/bin/freenect-wavrecord\n'}
+[2.173555] (libfreenect) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-wavrecord" to ""\n'}
+[2.173672] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/bin/freenect-regtest\n'}
+[2.173945] (libfreenect) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-regtest" to ""\n'}
+[2.174046] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/bin/freenect-tiltdemo\n'}
+[2.174360] (libfreenect) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/freenect-tiltdemo" to ""\n'}
+[2.174649] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5\n'}
+[2.174812] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/fakenect/libfakenect.so.0\n'}
+[2.174936] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/fakenect/libfakenect.so\n'}
+[2.175026] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/bin/fakenect-record\n'}
+[2.175336] (libfreenect) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/bin/fakenect-record" to ""\n'}
+[2.175435] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/bin/fakenect\n'}
+[2.175547] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/share/man/man1/fakenect.1\n'}
+[2.175640] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/share/man/man1/fakenect-record.1\n'}
+[2.175908] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5\n'}
+[2.176029] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.so.0\n'}
+[2.176252] (libfreenect) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5" to ""\n'}
+[2.176340] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.so\n'}
+[2.176434] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/lib/libfreenect_sync.a\n'}
+[2.176521] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h\n'}
+[2.176715] (libfreenect) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/libfreenect/include/libfreenect/libfreenect.hpp\n'}
+[2.178105] (libfreenect) CommandEnded: {'returncode': 0}
+[2.191197] (libfreenect) JobEnded: {'identifier': 'libfreenect', 'rc': 0}
+[2.191899] (-) EventReactorShutdown: {}

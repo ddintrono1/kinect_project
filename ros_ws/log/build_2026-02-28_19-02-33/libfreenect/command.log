@@ -1,0 +1,6 @@
+Invoking command in '/root/ros_ws/build/libfreenect': /usr/bin/cmake /root/ros_ws/src/libfreenect -DBUILD_PYTHON3=ON -DBUILD_CV=OFF -DBUILD_EXAMPLES=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/libfreenect
+Invoked command in '/root/ros_ws/build/libfreenect' returned '0': /usr/bin/cmake /root/ros_ws/src/libfreenect -DBUILD_PYTHON3=ON -DBUILD_CV=OFF -DBUILD_EXAMPLES=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/libfreenect
+Invoking command in '/root/ros_ws/build/libfreenect': /usr/bin/cmake --build /root/ros_ws/build/libfreenect -- -j8 -l8
+Invoked command in '/root/ros_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /root/ros_ws/build/libfreenect -- -j8 -l8
+Invoking command in '/root/ros_ws/build/libfreenect': /usr/bin/cmake --install /root/ros_ws/build/libfreenect
+Invoked command in '/root/ros_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /root/ros_ws/build/libfreenect
